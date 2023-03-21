@@ -1,0 +1,376 @@
+
+@media screen and (max-width:280px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        left: 0;
+        top: 0;
+    }
+    
+    header{
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 32px;
+        font-weight: 500;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        box-shadow: 1px 1px 5px #222;
+    }
+    
+    main{
+        height: 80vh;
+        width: 100vw;
+    }
+    
+    .add_book_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 12px;
+        font-weight: 700;
+        height: 42px;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 12px;
+        border: none;
+        background-color: #FFF;
+    }
+    
+    .add_book_btn:hover{
+        border: 1px solid #222;
+        background-color: #222;
+        color: #FFF;
+    
+    }
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        font-size: smaller;
+        font-weight: 500;
+    }
+    
+        
+    }
+
+
+@media screen and (max-width:375px) {
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 0;
+    top: 0;
+}
+
+header{
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 500;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: 1px 1px 5px #222;
+}
+
+main{
+    height: 80vh;
+    width: 100vw;
+}
+
+.add_book_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    font-weight: 700;
+    height: 42px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    border: none;
+    background-color: #FFF;
+}
+
+.add_book_btn:hover{
+    border: 1px solid #222;
+    background-color: #222;
+    color: #FFF;
+
+}
+
+.book_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #222;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #222;
+    gap: 8px;
+}
+
+.p_title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.p_author{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.p_pages{
+    font-size: 16px;
+}
+
+.btn_books{
+    height: 32px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn_remove{
+    background-color: #ff7676;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    gap: 8px;
+}
+
+.github-icon{
+    height: 24px;
+    transition: .4s;
+}
+
+.github-icon:hover{
+    transform: scale(120%);
+}
+
+    
+}
+
+
+@media screen and (max-width:768px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        left: 0;
+        top: 0;
+    }
+    
+    header{
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 32px;
+        font-weight: 500;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        box-shadow: 1px 1px 5px #222;
+    }
+    
+    main{
+        height: 80vh;
+        width: 100vw;
+    }
+    
+    .add_book_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 12px;
+        font-weight: 700;
+        height: 42px;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 12px;
+        border: none;
+        background-color: #FFF;
+    }
+    
+    .add_book_btn:hover{
+        border: 1px solid #222;
+        background-color: #222;
+        color: #FFF;
+    
+    }
+    
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        gap: 8px;
+    }
+    
+    .github-icon{
+        height: 24px;
+        transition: .4s;
+    }
+    
+    .github-icon:hover{
+        transform: scale(120%);
+    }
+    
+        
+    }
+
+    @media screen and (max-width:1024px) {
+
+        body{
+            display: flex;
+            flex-direction: column;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            left: 0;
+            top: 0;
+        }
+        
+        header{
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: 500;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            box-shadow: 1px 1px 5px #222;
+        }
+        
+        main{
+            height: 80vh;
+            width: 100vw;
+        }
+        
+        .add_book_btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 12px;
+            font-weight: 700;
+            height: 42px;
+            width: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 12px;
+            border: none;
+            background-color: #FFF;
+        }
+        
+        .add_book_btn:hover{
+            border: 1px solid #222;
+            background-color: #222;
+            color: #FFF;
+        
+        }
+        
+        footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            gap: 8px;
+        }
+        
+        .github-icon{
+            height: 24px;
+            transition: .4s;
+        }
+        
+        .github-icon:hover{
+            transform: scale(120%);
+        }
+        
+            
+        }
+
+        @media screen and (min-width:1024px) {
+
+            body{
+                display: flex;
+                flex-direction: column;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                left: 0;
+                top: 0;
+            }
+            
+            header{
+                left: 0;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                font-size: 32px;
+                font-weight: 500;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                box-shadow: 1px 1px 5px #222;
+            }
+            
+            main{
+                height: 80vh;
+                width: 100vw;
+            }
+            
+            .add_book_btn{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 12px;
+                font-weight: 700;
+                height: 42px;
+                width: 150px;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 12px;
+                border: none;
+                background-color: #FFF;
+            }
+            
+            .add_book_btn:hover{
+                border: 1px solid #222;
+                background-color: #222;
+                color: #FFF;
+            
+            }
+            
+            footer{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 500;
+                gap: 8px;
+            }
+            
+            .github-icon{
+                height: 24px;
+                transition: .4s;
+            }
+            
+            .github-icon:hover{
+                transform: scale(120%);
+            }
+            
+                
+            }
