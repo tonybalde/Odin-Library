@@ -326,11 +326,16 @@ footer{
                 padding-top: 12px;
                 padding-bottom: 12px;
                 box-shadow: 1px 1px 5px #222;
+                background-color: rgb(102, 102, 102);
+                position: fixed;
             }
             
             main{
+                display: flex;
+                flex-direction: column;
+                margin-top: 50px;
                 height: 85vh;
-                width: 100vw;
+                width: 100%;
             }
             
             .add_book_btn{
@@ -383,6 +388,7 @@ footer{
                 width: 100%;
             }
 
+           
             .form_add_new_book{
                 display: flex;
                 align-items: center;
@@ -414,10 +420,15 @@ footer{
 
 
             .books_container{
-
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 12px;
+                
             }
 
-            .book_card{
+            .book-card{
                 display: flex;
                 width: 300px;
                 flex-direction: column;
@@ -431,20 +442,58 @@ footer{
                 gap: 8px;
             }
             
-            .p_title{
+            
+            .title__book{
                 font-size: 24px;
                 font-weight: 700;
             }
             
-            .p_author{
+            .author__book{
                 font-size: 18px;
                 font-weight: 500;
             }
             
-            .p_pages{
+            .pages__book{
                 font-size: 16px;
+                font-weight: 500;
             }
             
+            .card__body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 18px;
+            }
+
+            .btns_cards{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 200px;
+                height: 30px;
+                border-radius: 12px;
+                border: none;
+            }
+
+            .btns_cards:hover{
+                border: 1px solid #222;
+            }
+
+            .read-status__book{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 12px;
+                width: 200px;
+                height: 32px;
+                background-color: rgb(133, 255, 174); 
+            }
+
+            .not_read-status__book{
+                background-color: rgb(133, 255, 174); 
+            }
+
             .btn_books{
                 height: 32px;
                 width: 100%;
@@ -470,8 +519,15 @@ footer{
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                font-size: 20px;
                 font-weight: 500;
                 gap: 8px;
+                position: fixed;
+                width: 100%;
+                height: 50px;
+                margin-top: 94vh;
+                color: #fff;
+                background-color: rgb(102, 102, 102);
             }
             
             .github-icon{
