@@ -329,7 +329,7 @@ footer{
             }
             
             main{
-                height: 80vh;
+                height: 85vh;
                 width: 100vw;
             }
             
@@ -340,7 +340,7 @@ footer{
                 margin-top: 12px;
                 font-weight: 700;
                 height: 42px;
-                width: 150px;
+                width: 320px !important;    
                 margin-left: auto;
                 margin-right: auto;
                 border-radius: 12px;
@@ -349,12 +349,123 @@ footer{
             }
             
             .add_book_btn:hover{
-                border: 1px solid #222;
+                border: 1px solid #fff;
                 background-color: #222;
                 color: #FFF;
+                font-weight: 500;
+            }
+
+            .add_book_btn_form{
+                width: 90%;
+                height: 32px;
+                border-radius: 8px;
+                border: none;
+            }
+            
+            .add_book_btn_form:hover{
+                border: 1px solid #fff;
+                background-color: #222;
+                color: #FFF;
+                font-weight: 500;
             
             }
             
+            .inputs{
+                border-radius: 6px;
+                border: 1px solid #222;
+                width: 90%;
+                height: 20px;
+            }
+
+            .form{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+
+            .form_add_new_book{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 300px;
+                border: 1px solid #222;
+                border-radius: 8px;
+                padding: 8px;
+                gap: 8px;
+                background-color: #222;
+                color: #FFF;
+            }
+
+            .read_status{
+                display: flex;
+                gap: 8px;
+                align-items: center;
+            }
+            
+            .add_book_btn{
+                width: 90%;
+                font-weight: 500;
+            }
+
+            .add_book_btn:hover{
+                border-color: #FFF;
+            }
+
+
+            .books_container{
+
+            }
+
+            .book_card{
+                display: flex;
+                width: 300px;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                border: 1px solid #222;
+                padding: 8px;
+                margin: 8px;
+                border-radius: 5px;
+                box-shadow: 1px 1px 2px #222;
+                gap: 8px;
+            }
+            
+            .p_title{
+                font-size: 24px;
+                font-weight: 700;
+            }
+            
+            .p_author{
+                font-size: 18px;
+                font-weight: 500;
+            }
+            
+            .p_pages{
+                font-size: 16px;
+            }
+            
+            .btn_books{
+                height: 32px;
+                width: 100%;
+                border-radius: 5px;
+                border: none;
+            }
+
+            .btn_books:hover{
+                font-weight: 500;
+                border: 1px solid #222;
+            }
+            
+            .btn_read{
+                background-color: aquamarine;
+            }
+
+            .btn_remove{
+                background-color: #ff7676;
+            }
+            
+
             footer{
                 display: flex;
                 align-items: center;
